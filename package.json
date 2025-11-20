@@ -1,0 +1,20 @@
+{
+  "name": "oracle-feeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@stellar/stellar-sdk": "^14.3.3",
+    "axios": "^1.13.2",
+    "circomlibjs": "^0.1.7",
+    "dotenv": "^17.2.3",
+    "node-cron": "^4.2.1"
+  }
+}
