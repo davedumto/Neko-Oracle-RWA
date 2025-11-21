@@ -1,2 +1,14 @@
 node_modules
 .env
+
+/target
+.DS_Store
+**/.DS_Store
+
+test_snapshots/
+
+# JS
+*/node_modules
+local.*
+
+/js
