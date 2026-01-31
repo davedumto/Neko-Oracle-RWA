@@ -14,9 +14,15 @@ import { DebugModule } from './debug/debug.module';
     HealthModule,
     MetricsModule,
     DebugModule,
+    ConfigModule.forRoot({
+      isGlobal: true,
+    }),
+    HttpModule,
+    EventEmitterModule.forRoot(),
   ],
   controllers: [],
   providers: [
+    DataReceptionService,
     AggregationService,
     WeightedAverageAggregator,
     MedianAggregator,
@@ -24,4 +30,4 @@ import { DebugModule } from './debug/debug.module';
   ],
   exports: [AggregationService],
 })
-export class AppModule {}
+export class AppModule { }
